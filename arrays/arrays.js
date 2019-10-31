@@ -19,9 +19,10 @@ for (let i = 0; i < arraySample.length; i++){
 
 console.log(arraySample);
 
-document.querySelector('#show').innerHTML = arraySample;
-
 let fk = arraySample.keys();
 for ( x of fk ) {
   console.log(x);
 }
+
+document.querySelector('#show').innerHTML = x + arraySample;
+
