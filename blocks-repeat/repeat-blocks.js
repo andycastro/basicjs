@@ -2,27 +2,49 @@
 
 //Funções JavaScript
 
-function functionName () { // Funções literais
+// Funções literais
+function functionName () { 
   // acontece algo aqui
 }
 
-var varName = function () { // Funções anonimas
+// Funções anonimas
+var varName = function () { 
   // acontece algo aqui
 }
 
-function functionName (param) { // Funções com parametros
+// Funções com parametros
+function functionName (param) { 
   // acontece algo aqui
 }
 
-function functionName () { // Função que retorna outra função como resultado
+// Função que retorna outra função como resultado
+function functionName () { 
   return function () {
     // acontece algo aqui
   }
 }
 
-function functionName () { // Funções aninhadas
+// Funções aninhadas
+function functionName () { 
   function functionOtherName () {
 
   }
 }
 
+
+// Laços de repetição
+
+// For
+
+for ( [declaracaoInicial]; [condicao]; [incremento, decremento, etc] ){
+  //faz alguma coisa
+}
+// O For será executado enquanto for true. ex:
+
+let i;
+for ( i = 0; i < 5; i++ ){
+  console.log(i);
+}
+
+
+// While - Executa enquanto verdadeiro
