@@ -18,7 +18,7 @@ Possíveis respostas:
 Possíveis respostas:
 + [Possível Resposta 1](#)
 
-### Questão 3: Crie uma função que receba um valor do usuário e ao clicar em um botão de + aumente um número e ao clicar em um botão de - diminua um número.
+### Questão 3: Crie uma função que receba um valor inteiro do usuário e ao clicar em um botão de + aumente um número e ao clicar em um botão de - diminua um número.
 
 Possíveis respostas: 
 + [Possível Resposta 1](#)
