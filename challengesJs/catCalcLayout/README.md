@@ -21,3 +21,9 @@ Construa uma calculadora em JavaScript, HTML e CSS de acordo com o layout estabe
 ## Devices
 
 + Mobile
+
+## Enviando uma PR
+
+Resolveu o problema? Envie seu código, pois ele poderá ajudar outros desenvolvedores e ajudará você a evoluir também.
+
+Envie uma PR!
