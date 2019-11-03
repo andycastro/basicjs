@@ -1,3 +1,0 @@
-# JavaScript Challenges
-
-## Desafio
