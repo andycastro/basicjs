@@ -18,9 +18,10 @@ Ah! Tem também um print em .png, mas se puder utilizar o InVision, basta baixar
 
 ## Estrutura de Diretórios
 + nomeProjetoLayout
-  + REAME.md (com informações sobre o desafio/projeto)
   + nomeProjeto.studio (arquivo fonte InVision)
+    + + REAME.md (com informações sobre o desafio/projeto)
   + nomeProjetoScreen (ScreenShot em .png)
+    + + REAME.md (com informações sobre o desafio/projeto)
   + export (Diretório)
     + Imagens exportadas (logo.svg, etc...)
 
