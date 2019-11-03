@@ -1,3 +1,3 @@
-# Challenges JavaScript
+# JavaScript Challenges
 
 ## Desafio

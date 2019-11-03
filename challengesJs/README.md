@@ -1,4 +1,4 @@
-# Challenges JavaScript
+# JavaScript Challenges
 
 Desafios JavaScript é uma forma de treinar os conceitos praticando-os.
 

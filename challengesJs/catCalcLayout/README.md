@@ -1,4 +1,4 @@
-# Challenges JavaScript
+# JavaScript Challenges
 
 ## Desafio: Calculadora JavaScript
 
