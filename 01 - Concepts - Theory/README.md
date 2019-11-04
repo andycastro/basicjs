@@ -147,6 +147,43 @@ Veja:
 
 ![](https://valde.ci/images/posts/es6/const-and-let/const-and-let-chart.png)
 
+Só mais dois exemplos comparando ```var``` e ```let```:
+
+```
+var i = 5;
+for (var i = 0; i < 10; i++){
+  // faz alguma coisa
+}
+// O valor de i aqui é 10
+
+```
+Usando let
+
+```
+let i = 5;
+for (let i = 0; i < 10; i++) {
+// faz alguma coisa
+}
+// O valor de i aqui é 5
+
+```
+
 ### const
 
+
+Confesso que no início achei estranho uma _variável_ chamada _const_, pois se é _const_ de *constante* como pode ser chamada de variável?
+
+define variável: sujeito a variações ou mudanças, instável etc.
+
+define constante: que não muda, inalterável, invariável, fixo. ```¯\_(ツ)_/¯```
+
+Mas olha que bacana:
+
+>_A  declaração *const* cria uma variável cujo o valor é fixo, ou seja, uma constante somente leitura. Isso não significa que o valor é imutável, apenas que a variável constante não pode ser alterada ou retribuída._
+
+[Fonte: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/const](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/const)
+
+Sabe o que isso quer dizer?
+
+Isso mesmo, **Programação Funcional**! Uma das premissas da programação funcional é o ```princípio da imutabilidade```.
 
