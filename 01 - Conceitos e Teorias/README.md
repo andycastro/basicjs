@@ -1,4 +1,4 @@
-# Concepts and Theory
+# Conceitos e Teorias
 
 Aqui nós juntamos os conceitos mais utilizados de JavaScript em nosso dia-dia, ou quase isso! :)
 
@@ -186,4 +186,16 @@ Mas olha que bacana:
 Sabe o que isso quer dizer?
 
 Isso mesmo, **Programação Funcional**! Uma das premissas da programação funcional é o ```princípio da imutabilidade```.
+
+E é aqui que eu já emendo com a pergunta que está em sua cabeça agora:
+
+![](https://media.giphy.com/media/5XRB3Ay93FZw4/giphy.gif)
+
+### var, let ou const, qual devo usar?
+
+Vai de ```const```! Utilizar valores mutáveis torna o desenvolvimento bastante caro, pois não há garantia de que no código você não irá se deparar com efeitos colaterais da mutabilidade.
+
+Alguma imutabilidade é invevitável, mas vai sempre de ```const``` e se em algum momento você perceber que não será possível utilizar ```const```, ai você vai de ```let```, mas usa ```const```.
+
+## O que é programação Funcional?
 
