@@ -23,7 +23,7 @@ Uma das formas seria:
 7. comparar com a mais alta até agora
 8. ignorar a mais baixa e permanecer com a mais alta e assim por diante
 
-Tentar pensar como o computador pensa é basicamente o início para resolvermos os problemas com programação.
+Tentar pensar como o computador é basicamente o início para resolvermos os problemas com programação.
 
 
 ## Como os computadores entendem o mundo ao seu redor?
@@ -66,7 +66,7 @@ Para entender melhor sobre ```var``` e os problemas que fizeram ela perder a con
 
 Hoisting em JavaScript é um mecaniscmo onde variáveis e declarações de funções são movidas para o topo do escopo, antes da execução total do código.
 
-Ou seja, se eu declarar uma ```var x = 3``` no decorrer do meu código, o hoisting eleva o ```var x``` (isso mesmo, apenas a declaração sobe e não a inicialização ```= 3``` ) para o topo da minha aplicação.
+Ou seja, se eu declarar uma ```var x = 3``` no decorrer do meu código, o hoisting eleva o ```var x``` para o topo da minha aplicação (isso mesmo, apenas a declaração sobe e não a inicialização ```= 3``` ).
 
 Veja o código:
 
@@ -80,7 +80,7 @@ var x;
 //output 3
 
 ```
-Dessa forma, o correto seria sempre declarar as ```var``` no topo da aplicação para não ser pego de surpresa por um comportamento inesperado.
+Dessa forma, o correto seria sempre declarar as variáveis ```var``` no topo da aplicação para não ser pego de surpresa por um comportamento inesperado.
 
 Mas não é só isso! 
 
@@ -105,4 +105,21 @@ fora 4
 ```
 ![](https://s2.glbimg.com/2O7EJhhe5zJe49MoxY1rPq0CDHQ=/0x0:694x352/695x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2018/C/k/qBnGliTfG5aeJ8GuevvQ/tekpix.jpg)
 
-### Variáveis e Constantes declaradas com ```let```e ```const``` não são hoisted -hoisteadas-
+#### Variáveis e Constantes declaradas com ```let```e ```const``` não são hoisted <s>_hoisteadas_</s>
+
+### let
+
+O ECMAScript 2015 introduziu duas importantes opções de declaração para nossas variáveis, ```let``` e ```const```.
+
+Essas duas palavras nos dão variáves de bloco de escopo, ou seja, mais incisivo, menos erros com declarações globais <s>sorry var</s>.
+
+```
+{
+  let x = 5;
+}
+// x não pode ser usado aqui
+```
+
+O que isso significa?
+
+Significa que você passará a ter mais controle do que é feito sem se preocupar com escopos globais.
