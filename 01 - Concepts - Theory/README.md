@@ -123,3 +123,30 @@ Essas duas palavras nos dão variáves de bloco de escopo, ou seja, mais incisiv
 O que isso significa?
 
 Significa que você passará a ter mais controle do que é feito sem se preocupar com escopos globais.
+
+Confira:
+
+```
+var a = 1;
+var b = 2;
+
+if ( a === 1 ){
+    var a = 11; // escopo global
+    let b = 22; // o escopo é dentro do bloco if
+
+    console.log(a); // 11
+    console.log(b); // 22
+}
+
+console.log(a); // 11
+console.log(b); // 2
+
+```
+
+Veja: 
+
+![](https://valde.ci/images/posts/es6/const-and-let/const-and-let-chart.png)
+
+### const
+
+
