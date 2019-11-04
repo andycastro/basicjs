@@ -199,3 +199,49 @@ Alguma imutabilidade é invevitável, mas vai sempre de ```const``` e se em algu
 
 ## O que é programação Funcional?
 
+## O que é Thread?
+
+## null e undefined, já sacou?
+
+## O motherfucker THIS
+
+## Desestruturação em JavaScript
+
+## Template Literals JavaScript
+
+Templates Literals são literals que representam uma ```string``` com suporte a interpolação e múltiplas linhas.
+
+Introduzido no ES6, as Templates Literals nos ajudam a escrever um código mais enxuto, podendo ser possível mesclar strings e valores, dando mais controle sobre strings dinâmicas.
+
+Para utilizar Template Literals basta utilizar ``` ` ``` _crase_ ao invés de ``` '  ``` _aspas_.
+
+Sacaí:
+
+Antes
+
+```
+const literal = "Template Literals";
+
+console.log('Bem-vindo ' + literal + '!');
+
+// Bem-vindo Template Literals!
+```
+### Com Template Literals o código fica assim:
+
+```
+const literal = "Template Literals";
+
+console.log(`Bem-vindo ${literal}!`);
+
+// Bem-vindo Template Literals!
+
+```
+### Multiplas linhas com Template Literals
+
+```
+const mult = `Aqui está um texto
+com quebra de linha,
+utilizando Template Literals.`
+
+```
+Enjoy!
