@@ -4,7 +4,7 @@ Aqui nós juntamos os conceitos mais utilizados de JavaScript em nosso dia-dia, 
 
 ## Pensar como o computador pensa
 
-Para entender como trabalham os computadores executando nossos scripts e programas é necessário pensar como eles.
+Para entender como trabalham os computadores, executando nossos scripts e programas, é necessário pensar como eles.
 
 Veja esta imagem e determine quem é a pessoa mais alta:
 
@@ -23,7 +23,7 @@ Uma das formas seria:
 7. comparar com a mais alta até agora
 8. ignorar a mais baixa e permanecer com a mais alta e assim por diante
 
-Tentar pensar como o computador pensa é basicamente o início para resolver os problemas com programação.
+Tentar pensar como o computador pensa é basicamente o início para resolvermos os problemas com programação.
 
 
 ## Como os computadores entendem o mundo ao seu redor?
@@ -58,5 +58,51 @@ A Var perdeu a confiança do grupo!
 
 ![](https://media.giphy.com/media/TTarU6pCtJfZm/giphy.gif)
 
-Bom, tudo começou quando geral usava ```var``` pra declarar suas variáveis, e até ai tudo ok ~eu acho~, no entanto, muitas vezes a var vaza fora do escopo, deixando um bug na conta do dev pra resolver.
+Sabe aquele segredo que você conta pra alguém no grupo e este alguém _vaza_ e bagunça um pouco a sua vida? Pois bem, prazer meu nome é ```var```.
 
+Para entender melhor sobre ```var``` e os problemas que fizeram ela perder a confiança do grupo, precisaremos entender um pouco sobre ```hoisting```.
+
+### Hoisting
+
+Hoisting em JavaScript é um mecaniscmo onde variáveis e declarações de funções são movidas para o topo do escopo, antes da execução total do código.
+
+Ou seja, se eu declarar uma ```var x = 3``` no decorrer do meu código, o hoisting eleva o ```var x``` (isso mesmo, apenas a declaração sobe e não a inicialização ```= 3``` ) para o topo da minha aplicação.
+
+Veja o código:
+
+```
+x = 3;
+
+console.log(x);
+
+var x;
+
+//output 3
+
+```
+Dessa forma, o correto seria sempre declarar as ```var``` no topo da aplicação para não ser pego de surpresa por um comportamento inesperado.
+
+Mas não é só isso! 
+
+Em alguns casos o dev não tem como identificar de onde vem o bug, e em aplicações grandes a tarefa se torna quase impossível. Veja o exemplo:
+
+```
+function contador () {
+  for (var idade = 0; idade <= 3; idade++){
+    console.log('Dentro ' + idade);  
+  }
+  console.log('fora ' + idade);  
+}
+contador();
+
+//output
+Dentro 0
+Dentro 1
+Dentro 2
+Dentro 3
+fora 4
+
+```
+![](https://s2.glbimg.com/2O7EJhhe5zJe49MoxY1rPq0CDHQ=/0x0:694x352/695x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2018/C/k/qBnGliTfG5aeJ8GuevvQ/tekpix.jpg)
+
+### Variáveis e Constantes declaradas com ```let```e ```const``` não são hoisted -hoisteadas-
