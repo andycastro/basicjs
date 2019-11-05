@@ -199,11 +199,59 @@ Alguma imutabilidade é invevitável, mas vai sempre de ```const``` e se em algu
 
 ## O que é programação Funcional?
 
+É um paradigma de programação que trata a computação como uma avaliação de funções matemáticas e que evita estados ou dados mutáveis.
+
+A programação funcional enfatiza a aplicação de funções, ao invés da programação imperativa, que enfatiza mudanças no estado do programa.
+
+Na programação funcional as funções são tratadas de forma em que possam ser passadas como parâmetros e valores para outras funções e podendo ter o resultado armazenado em uma constante.
+
 ## O que é Thread?
+
+É um fluxo único de controle sequencial dentro de um programa, ou seja, um pequeno programa que trabalha com subsistema, sendo uma forma de um processo se autodividir em duas ou mais tarefas.
+
+Um exemplo de thread: Browser.
+
+Em um browser tem várias coisas acontecendo ao mesmo tempo, scroll, download de uma imagem, play de audio, download de nova página, etc.
+
+O JavaScript é considerado uma linguagem single-thread, por possuir uma única Call Stack (pilha de chamadas) só pode fazer uma coisa de cada vez.
+
+Tem um texto massa postado por Robson Oliveira na comunidade ReactBrasil que fala sobre isso, dá uma sacada: [Como o Javascript funciona: uma visão geral da engine, runtime e da call stack](http://bit.ly/jsthread)
 
 ## null e undefined, já sacou?
 
-## O motherfucker THIS
+```undefined``` é quando uma variável foi declarada, mas não foi atribuída um valor a ela.
+
+```
+var testVar;
+console.log(testVar); // mostra undefined
+console.log(typeof testVar); // mostra undefined
+
+```
+
+```null``` é um valor de atribuição e pode ser atribuído a uma variável com uma representação sem valor.
+
+```
+var testVar = null;
+console.log(testVar); // mostra null
+console.log(typeof testVar); // mostra null
+
+```
+
+*NULL*
+
+![](https://www.bombounowa.com/wp-content/uploads/e-so-isso-nao-tem-mais-jeito.jpg)
+
+*UNDEFINED*
+
+![](https://images-americanas.b2w.io/produtos/01/00/image/18535/7/18535753G1.jpg)
+
+*=*
+
+![](https://i.stack.imgur.com/0YSyJ.jpg)
+
+## Entendendo de uma vez por todas o THIS
+
+
 
 ## Desestruturação em JavaScript
 
