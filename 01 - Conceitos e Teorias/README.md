@@ -209,6 +209,8 @@ Na programação funcional as funções são tratadas de forma em que possam ser
 
 É um fluxo único de controle sequencial dentro de um programa, ou seja, um pequeno programa que trabalha com subsistema, sendo uma forma de um processo se autodividir em duas ou mais tarefas.
 
+![](https://giphygifs.s3.amazonaws.com/media/ccRdPf8zWkivm/giphy.gif)
+
 Um exemplo de thread: Browser.
 
 Em um browser tem várias coisas acontecendo ao mesmo tempo, scroll, download de uma imagem, play de audio, download de nova página, etc.
