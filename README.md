@@ -12,8 +12,8 @@ Você aprende mais sobre JavaScript e cai pra dentro dos desafios propostos.
 Basic JS
 │   README.md
 └───contentName
-│   │ README.md (talking about JavaScript Content)
-│   └───JSChallenge (interesting JavaScript Challenges is here)
+│   │ README.md (fala sobre o conteúdo JavaScript)
+│   └───JSChallenge (os desafios legais e interessantes estão aqui)
 
 ```
 
