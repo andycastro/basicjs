@@ -253,7 +253,11 @@ console.log(typeof testVar); // mostra null
 
 ## Entendendo de uma vez por todas o THIS
 
+...
+
 ## Desestruturação em JavaScript
+
+...
 
 ## Template Literals JavaScript
 
@@ -293,3 +297,7 @@ utilizando Template Literals.`
 
 ```
 Enjoy!
+
+## map(), filter() e reduce() em JavaScript
+
+...
