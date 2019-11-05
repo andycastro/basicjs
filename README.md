@@ -1,12 +1,12 @@
-## About Basic JS
+## Sobre o Basic JS
 
-It's a basic course about JavaScript, where We joined some concepts and propose cool challenges, without being monotonous.
+É sobre um curso básico de JavaScript, no qual juntamos alguns conceitos e propomos um desafio interessante, sem ser monótono ;)
 
-## How it works?
+## Como funciona?
 
-You can learn more about JavaScript and solve the proposed challenges.
+Você aprende mais sobre JavaScript e cai pra dentro dos desafios propostos.
 
-## Project Structure
+## Estrutura do Projeto
 
 ```
 Basic JS
@@ -17,9 +17,9 @@ Basic JS
 
 ```
 
-## Contributing
+## Contribuindo
 
-Yes, You can! Send a PR for
-+ Add new content (anything about modern JavaScript)
-+ Add new challenges, read about this in [JavaScript Challenges](https://github.com/andycastro/basicjs/tree/master/challengesJs)
-+ Open a pertinent ISSUE to better this project
+Sim, você pode enviar a sua PR para:
++ Adicionar novo conteúdo (JavaScript Moderno)
++ Adicionar novos desafios, leia mais aqui: [JavaScript Challenges](https://github.com/andycastro/basicjs/tree/master/challengesJs)
++ Abrir uma ISSUE para melhorar o projeto.
