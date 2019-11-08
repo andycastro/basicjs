@@ -5,9 +5,11 @@ ou quase isso! :)
 
 ## Sumário
 
-[Pensar como o coputador pensa](#pensar-pc)
++ [Pensar como o computador pensa](#pensar-como-o-computador-pensa)
++ [Como os computadores entendem o mundo ao seu redor?](#como-os-computadores-entendem-o-mundo-ao-seu-redor)
++ [Scripts](#scripts)
 
-## Pensar como o computador pensa <a name="#pensar-pc"></a>
+## Pensar como o computador pensa
 
 Para entender como trabalham os computadores, executando nossos scripts e 
 programas, é necessário pensar como eles.
