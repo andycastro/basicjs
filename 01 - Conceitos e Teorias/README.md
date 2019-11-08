@@ -340,6 +340,30 @@ console.log(`O vencedor foi: ${vencedor}`); // O vencedor foi: Botas
 console.log(`O segundo e terceiro lugar: ${demaisPosicoes}`); // O segundo e terceiro
 lugar: Hamilton,Verstappen
 ```
+### Desestruturação em Funções
+
+Também podemos utilizar a desestruturação em funções JavaScript.
+
+Suponhamos que quiséssemos evitar a repetição do nome ```livro``` na função:
+
+```
+function dadosLivros(livro) {
+  console.log(livro.autor);
+  console.log(livro.preco);
+}
+dadosLivros(livro);
+```
+
+Com desestruturação faríamos:
+
+```
+function dadosLivros({autor, preco}) {
+  console.log(autor);
+  console.log(preco);
+}
+dadosLivros(livro);
+```
+
 Aprofunde mais [Atribuição via desestruturação (destructuring assignment) - Developer Mozilla](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Operators/Atribuicao_via_desestruturacao)
 
 ## Entendendo de uma vez por todas o THIS
