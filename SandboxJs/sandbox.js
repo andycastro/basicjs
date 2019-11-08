@@ -1,10 +1,22 @@
-/* Receive a integer number and return some seems 
-Learning: Verifying the end letter of a string: .endsWith() method.
+/* Destructuring, Desestruturação JS ES6/ES7
 */
-function stackBoxes(n) {
-  const numbers = n**2;
-  
-  return numbers;
+carro = {
+  marca: 'Volkswagen',
+  modelo: 'Fusca',
+  opcionais: {
+    seguranca: {
+      itens: ['airbag', 'abs', 'green']
+    }
+  }
+};
 
-}
-console.log(stackBoxes(9));
+const { marca, opcionais: { seguranca: { itens }} } = carro;
+
+console.log(`Marca do veículo: ${marca}`);
+console.log(`Itens de segurança do veículo:  ${itens}`);
+
+// const companyName = company.name;
+// const shirtsColor = company.products.shirts.colors;
+
+// console.log(companyName);
+// console.log(shirtsColor);

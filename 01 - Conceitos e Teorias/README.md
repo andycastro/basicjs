@@ -280,7 +280,43 @@ console.log(typeof testVar); // mostra null
 
 ## Entendendo de uma vez por todas o THIS
 
-...
+O _Destructuring_ ou Desestruturação no javaScript foi apresentado como funcionalidade no ES6 como forma de diminuir a escrita de códigos, mas atingindo o mesmo objetivo para extrair dados de arrays, objetos e até de retorno de variáveis distintas.
+
+### Como funcionava até o ES5?
+
+Vamos supor que eu tenho os seguintes dados de um veículo de uma loja:
+
+```
+carro = {
+  marca: 'Volkswagen',
+  modelo: 'fusca',
+  opcionais: {
+    seguranca: {
+      itens: ['airbag', 'abs', 'anti-colisão']
+    }
+  }
+}
+```
+Para exibir estes dados, pelo menos até o ES5, você provavelmente faria:
+
+```
+var carroMarca = carro.marca;
+var opcionaisSeguranca = carro.opcionais.seguranca.itens
+
+console.log(carroMarca);
+console.log(opcionaisSeguranca);
+```
+É aqui que entra a desestruturação de objetos. Veja como fazer já utilizando esta
+funcionalidade do ES6:
+
+### Desestruturação
+
+```
+const { marca, opcionais: { itens: } } = carro
+
+console.log(marca);
+console.log(opcionais);
+```
 
 ## Desestruturação em JavaScript
 
