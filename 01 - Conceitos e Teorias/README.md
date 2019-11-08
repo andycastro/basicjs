@@ -337,7 +337,8 @@ veja:
 ```
 const [vencedor, ...demaisPosicoes] = ["Botas", "Hamilton", "Verstappen"];
 console.log(`O vencedor foi: ${vencedor}`); // O vencedor foi: Botas
-console.log(`O segundo e terceiro lugar: ${demaisPosicoes}`); // O segundo e terceiro lugar: Hamilton,Verstappen
+console.log(`O segundo e terceiro lugar: ${demaisPosicoes}`); // O segundo e terceiro
+lugar: Hamilton,Verstappen
 ```
 
 
