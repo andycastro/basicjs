@@ -20,3 +20,7 @@ console.log(`Itens de segurança do veículo:  ${itens}`);
 
 // console.log(companyName);
 // console.log(shirtsColor);
+
+const [vencedor, ...demaisPosicoes] = ["Botas", "Hamilton", "Verstappen"];
+console.log(`O vencedor foi: ${vencedor}`);
+console.log(`O segundo e terceiro lugar: ${demaisPosicoes}`);

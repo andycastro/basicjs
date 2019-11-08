@@ -317,6 +317,29 @@ const { marca, opcionais: { itens: } } = carro
 console.log(marca);
 console.log(opcionais);
 ```
+Nesta mesma linha de racioncínio seguimos:
+
+### Desestruturação de array
+
+```
+const alunos = ["Janeiro", "Fevereiro", "Março"]; //
+
+const [Janeiro, Fevereiro, Março] = alunos
+console.log(Janeiro);
+console.log(Fevereiro);
+console.log(Março);
+```
+### Operador Spread
+
+Como o operador Spread eu consigo atribuir o resto de um array para uma variável,
+veja:
+
+```
+const [vencedor, ...demaisPosicoes] = ["Botas", "Hamilton", "Verstappen"];
+console.log(`O vencedor foi: ${vencedor}`); // O vencedor foi: Botas
+console.log(`O segundo e terceiro lugar: ${demaisPosicoes}`); // O segundo e terceiro lugar: Hamilton,Verstappen
+```
+
 
 ## Entendendo de uma vez por todas o THIS
 
