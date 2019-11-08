@@ -278,7 +278,7 @@ console.log(typeof testVar); // mostra null
 
 ![](https://i.stack.imgur.com/0YSyJ.jpg)
 
-## Entendendo de uma vez por todas o THIS
+## Desestruturação em JavaScript
 
 O _Destructuring_ ou Desestruturação no javaScript foi apresentado como funcionalidade no ES6 como forma de diminuir a escrita de códigos, mas atingindo o mesmo objetivo para extrair dados de arrays, objetos e até de retorno de variáveis distintas.
 
@@ -318,7 +318,7 @@ console.log(marca);
 console.log(opcionais);
 ```
 
-## Desestruturação em JavaScript
+## Entendendo de uma vez por todas o THIS
 
 ...
 
