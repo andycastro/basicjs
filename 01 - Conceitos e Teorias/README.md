@@ -5,9 +5,27 @@ ou quase isso! :)
 
 ## Sumário
 
-+ [Pensar como o computador pensa](#pensar-como-o-computador-pensa)
-+ [Como os computadores entendem o mundo ao seu redor?](#como-os-computadores-entendem-o-mundo-ao-seu-redor)
-+ [Scripts](#scripts)
+- [Conceitos Teóricos](#conceitos-te%c3%b3ricos)
+  - [Sumário](#sum%c3%a1rio)
+  - [Pensar como o computador pensa](#pensar-como-o-computador-pensa)
+  - [Como os computadores entendem o mundo ao seu redor?](#como-os-computadores-entendem-o-mundo-ao-seu-redor)
+  - [Scripts](#scripts)
+  - [Entendendo var, let e const - variáveis](#entendendo-var-let-e-const---vari%c3%a1veis)
+    - [Hoisting](#hoisting)
+    - [let](#let)
+    - [const](#const)
+    - [var, let ou const, qual devo usar?](#var-let-ou-const-qual-devo-usar)
+  - [O que é programação Funcional?](#o-que-%c3%a9-programa%c3%a7%c3%a3o-funcional)
+  - [O que é Thread?](#o-que-%c3%a9-thread)
+  - [null e undefined, já sacou?](#null-e-undefined-j%c3%a1-sacou)
+  - [Desestruturação em JavaScript](#desestrutura%c3%a7%c3%a3o-em-javascript)
+    - [Desestruturação de array](#desestrutura%c3%a7%c3%a3o-de-array)
+    - [Operador Spread](#operador-spread)
+    - [Desestruturação em Funções](#desestrutura%c3%a7%c3%a3o-em-fun%c3%a7%c3%b5es)
+  - [Entendendo de uma vez por todas o THIS](#entendendo-de-uma-vez-por-todas-o-this)
+  - [Template Literals JavaScript](#template-literals-javascript)
+  - [map(), filter() e reduce() em JavaScript](#map-filter-e-reduce-em-javascript)
+
 
 ## Pensar como o computador pensa
 
@@ -130,7 +148,7 @@ fora 4
 ```
 ![](https://s2.glbimg.com/2O7EJhhe5zJe49MoxY1rPq0CDHQ=/0x0:694x352/695x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2018/C/k/qBnGliTfG5aeJ8GuevvQ/tekpix.jpg)
 
-#### Variáveis e Constantes declaradas com ```let```e ```const``` não são hoisted <s>_hoisteadas_</s>
+*Variáveis e Constantes declaradas com ```let```e ```const``` não são hoisted <s>_hoisteadas_</s>*
 
 ### let
 
@@ -288,7 +306,7 @@ console.log(typeof testVar); // mostra null
 
 O _Destructuring_ ou Desestruturação no javaScript foi apresentado como funcionalidade no ES6 como forma de diminuir a escrita de códigos, mas atingindo o mesmo objetivo para extrair dados de arrays, objetos e até de retorno de variáveis distintas.
 
-### Como funcionava até o ES5?
+*Como funcionava até o ES5?*
 
 Vamos supor que eu tenho os seguintes dados de um veículo de uma loja:
 
@@ -315,7 +333,7 @@ console.log(opcionaisSeguranca);
 É aqui que entra a desestruturação de objetos. Veja como fazer já utilizando esta
 funcionalidade do ES6:
 
-### Desestruturação
+*Desestruturação*
 
 ```
 const { marca, opcionais: { itens: } } = carro
@@ -399,7 +417,7 @@ console.log('Bem-vindo ' + literal + '!');
 
 // Bem-vindo Template Literals!
 ```
-### Com Template Literals o código fica assim:
+*Com Template Literals o código fica assim:*
 
 ```
 const literal = "Template Literals";
@@ -409,7 +427,7 @@ console.log(`Bem-vindo ${literal}!`);
 // Bem-vindo Template Literals!
 
 ```
-### Multiplas linhas com Template Literals
+*Multiplas linhas com Template Literals*
 
 ```
 const mult = `Aqui está um texto
