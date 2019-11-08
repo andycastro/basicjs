@@ -364,8 +364,12 @@ function dadosLivros({autor, preco}) {
 dadosLivros(livro);
 ```
 
-Aprofunde mais [Atribuição via desestruturação (destructuring assignment) - Developer Mozilla](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Operators/Atribuicao_via_desestruturacao)
-
+Confira mais: 
++ [Atribuição via desestruturação (destructuring assignment) - Developer Mozilla](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Operators/Atribuicao_via_desestruturacao);
++ [Desmitificando o destructuring do JavaScript ES6/ES7](https://blog.taller.net.br/desmistificando-o-destructuring-do-javascript-es6es7/)
++ [Utilizando destructuring no ES6](https://www.horadecodar.com.br/2019/03/26/utilizando-destructuring-no-es6/)
+  
+  
 ## Entendendo de uma vez por todas o THIS
 
 ...
