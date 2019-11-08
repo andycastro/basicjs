@@ -1,9 +1,13 @@
-# Conceitos e Teorias
+# Conceitos Teóricos
 
 Aqui nós juntamos os conceitos mais utilizados de JavaScript em nosso dia-dia, 
 ou quase isso! :)
 
-## Pensar como o computador pensa
+## Sumário
+
+[Pensar como o coputador pensa](#pensar-pc)
+
+## Pensar como o computador pensa (#pensar-pc)
 
 Para entender como trabalham os computadores, executando nossos scripts e 
 programas, é necessário pensar como eles.
