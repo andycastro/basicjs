@@ -106,3 +106,33 @@ function search(arr, item) {
 console.log(search(
   [1, 2, 3, 4, 5], 2
 ));
+
+/* Receive a number of slices and verify if it's possible to do a fair division
+among the people.
+Learning: conditional and mathematic operations in JS.
+*/
+
+// total number of slices; number of recipients; how many slices each person gets
+function equalSlices(total, people, each) {
+  const totalSlices = total;
+  const result = people * each;
+  const final = totalSlices >= result ? true : false;
+
+  return final;
+}
+
+console.log(equalSlices(8, 5, 2));
+
+/* Receive a string and verify if is plural
+Learning: Verifying the end letter of a string: .endsWith() method.
+*/
+
+function isPlural(word) {
+  const initialWord = word;
+  const pluralAssing = "s";
+
+  const result = initialWord.endsWith(pluralAssing) ? true : false;
+  
+  return result;
+}
+console.log(isPlural("change"));
