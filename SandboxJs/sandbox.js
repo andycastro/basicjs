@@ -1,13 +1,10 @@
-/* Receive a string and verify if is plural
+/* Receive a integer number and return some seems 
 Learning: Verifying the end letter of a string: .endsWith() method.
 */
-
-function isPlural(word) {
-  const initialWord = word;
-  const pluralAssing = "s";
-
-  const result = initialWord.endsWith(pluralAssing) ? true : false;
+function stackBoxes(n) {
+  const numbers = n**2;
   
-  return result;
+  return numbers;
+
 }
-console.log(isPlural("change"));
+console.log(stackBoxes(9));
