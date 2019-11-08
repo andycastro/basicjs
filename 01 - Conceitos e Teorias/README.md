@@ -3,10 +3,9 @@
 Aqui nós juntamos os conceitos mais utilizados de JavaScript em nosso dia-dia, 
 ou quase isso! :)
 
-## Sumário
+*Sumário*
 
 - [Conceitos Teóricos](#conceitos-te%c3%b3ricos)
-  - [Sumário](#sum%c3%a1rio)
   - [Pensar como o computador pensa](#pensar-como-o-computador-pensa)
   - [Como os computadores entendem o mundo ao seu redor?](#como-os-computadores-entendem-o-mundo-ao-seu-redor)
   - [Scripts](#scripts)
