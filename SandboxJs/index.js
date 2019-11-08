@@ -79,3 +79,5 @@ function nFatorial3 (int2){
   }
 }
 console.log(nFatorial3(13))
+//
+
