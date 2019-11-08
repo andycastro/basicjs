@@ -340,7 +340,7 @@ console.log(`O vencedor foi: ${vencedor}`); // O vencedor foi: Botas
 console.log(`O segundo e terceiro lugar: ${demaisPosicoes}`); // O segundo e terceiro
 lugar: Hamilton,Verstappen
 ```
-
+Aprofunde mais [Atribuição via desestruturação (destructuring assignment) - Developer Mozilla](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Operators/Atribuicao_via_desestruturacao)
 
 ## Entendendo de uma vez por todas o THIS
 
