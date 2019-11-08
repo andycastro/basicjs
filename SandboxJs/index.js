@@ -80,4 +80,18 @@ function nFatorial3 (int2){
 }
 console.log(nFatorial3(13))
 //
+// Reverse Array
 
+// Calculando o volume total de uma pizza
+// (raio ** 2) * (height * Math.PI)
+// Improving about Math.round(); Math.PI; how to calculate area's pizza
+
+function volPizza(radius, height) {
+  const result = (radius ** 2) * (height * Math.PI);
+  
+  return Math.round(result);
+}
+
+console.log(volPizza(7,2));
+
+//
