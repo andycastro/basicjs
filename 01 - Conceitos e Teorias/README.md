@@ -7,7 +7,7 @@ ou quase isso! :)
 
 [Pensar como o coputador pensa](#pensar-pc)
 
-## Pensar como o computador pensa (#pensar-pc)
+## Pensar como o computador pensa <a name="#pensar-pc"></a>
 
 Para entender como trabalham os computadores, executando nossos scripts e 
 programas, é necessário pensar como eles.
