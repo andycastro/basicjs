@@ -3,7 +3,7 @@
 Aqui nós juntamos os conceitos mais utilizados de JavaScript em nosso dia-dia, 
 ou quase isso! :)
 
-*Sumário*
+*Contents*
 
 - [Conceitos Teóricos](#conceitos-te%c3%b3ricos)
   - [Pensar como o computador pensa](#pensar-como-o-computador-pensa)
@@ -21,9 +21,9 @@ ou quase isso! :)
     - [Desestruturação de array](#desestrutura%c3%a7%c3%a3o-de-array)
     - [Operador Spread](#operador-spread)
     - [Desestruturação em Funções](#desestrutura%c3%a7%c3%a3o-em-fun%c3%a7%c3%b5es)
-  - [Entendendo de uma vez por todas o THIS](#entendendo-de-uma-vez-por-todas-o-this)
   - [Template Literals JavaScript](#template-literals-javascript)
   - [map(), filter() e reduce() em JavaScript](#map-filter-e-reduce-em-javascript)
+  - [closures](#closures)
 
 
 ## Pensar como o computador pensa
@@ -391,11 +391,7 @@ Confira mais:
 + [Atribuição via desestruturação (destructuring assignment) - Developer Mozilla](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Operators/Atribuicao_via_desestruturacao);
 + [Desmitificando o destructuring do JavaScript ES6/ES7](https://blog.taller.net.br/desmistificando-o-destructuring-do-javascript-es6es7/)
 + [Utilizando destructuring no ES6](https://www.horadecodar.com.br/2019/03/26/utilizando-destructuring-no-es6/)
-  
-  
-## Entendendo de uma vez por todas o THIS
 
-...
 
 ## Template Literals JavaScript
 
@@ -437,5 +433,9 @@ utilizando Template Literals.`
 Enjoy!
 
 ## map(), filter() e reduce() em JavaScript
+
+...
+
+## closures
 
 ...
