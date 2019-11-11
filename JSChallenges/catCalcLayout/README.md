@@ -2,7 +2,7 @@
 
 ## Desafio: Calculadora JavaScript
 
-![Calculadora JavaScript](https://github.com/andycastro/basicjs/blob/master/challengesJs/catCalcLayout/catCalcScreen.png?raw=true)
+![Calculadora JavaScript](http://andycastro.com.br/files/catCalcScreen.png)
 
 ## Instruções:
 
