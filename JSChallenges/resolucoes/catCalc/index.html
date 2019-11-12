@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Chivo:300,700&display=swap" rel="stylesheet">
+  <title>Calculadora Js</title>
+</head>
+<body>
+  <section class="mainSec">
+    <div class="logo">
+      <img src="Logo.svg" alt="Logo">
+    </div>
+    <div class="wrapCalc">
+      <div class="result">
+        <span id="resultNumber"></span>
+      </div>
+      <div class="keyboard">
+        <div class="container wrap">
+          <button id="clearId" class="item clear">clear</button>
+          <button onclick="operatorsAction(this)" id="divide" class="item">÷</button>
+          <button onclick="show(this)" id="seven" class="item">7</button>
+          <button onclick="show(this)" id="eight" class="item">8</button>
+          <button onclick="show(this)" id="nine" class="item">9</button>
+          <button onclick="operatorsAction(this)" id="multiply" class="item">x</button>
+          <button onclick="show(this)" id="four" class="item">4</button>
+          <button onclick="show(this)" id="five" class="item">5</button>
+          <button onclick="show(this)" id="six" class="item">6</button>
+          <button onclick="operatorsAction(this)" id="minus" class="item">-</button>
+          <button onclick="show(this)" id="one" class="item">1</button>
+          <button onclick="show(this)" id="two" class="item">2</button>
+          <button onclick="show(this)" id="thre" class="item">3</button>
+          <button onclick="operatorsAction(this)" id="plus" class="item">+</button>
+          <button onclick="show(this)" id="zero" class="item">0</button>
+          <button onclick="show(this)" id="dot" class="item">.</button>
+          <button onclick="equals()" id="equal" class="item mid">=</button>
+        </div>
+      </div>
+    </div>
+  </section>
+<script src="main.js"></script>  
+</body>
+</html>

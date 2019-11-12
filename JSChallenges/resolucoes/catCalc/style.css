@@ -1,0 +1,73 @@
+body{
+  background-color: #151616;
+  font-family: 'Chivo', sans-serif;
+}
+  .mainSec{
+    width: auto;
+    max-width: 360px;
+    margin: 0 auto;
+    margin-top: 25px;
+    padding-top: 25px;
+    background-color: #222121;
+  }
+    .logo{
+      width: auto;
+      max-width: 93px;
+      margin: 0 auto;
+    }
+    .wrapCalc{
+
+    }
+      .result{
+        font-size: 4.5rem;
+        font-style: italic;
+        letter-spacing: -3px;
+        margin: 5px 0 5px;
+        height: 72px;
+      }
+        .result #resultNumber{
+          width: auto;
+          max-width: 100%;
+          margin: 0 auto;
+          display: block;
+          text-align: center;
+        }
+      .keyboard{
+        padding: 0 20px;
+      }
+        .keyboard .container {
+          display: flex;
+        }
+          .keyboard .wrap{
+            flex-wrap: wrap;
+            justify-content:flex-start;
+          }
+          .keyboard .item{
+            font-size: 2.5rem;
+            border: solid 1px #3d3c3c;
+            margin: 9px;
+            padding: 10px;
+            border-radius: 3px;
+            width: auto;
+            min-width: 62px;
+            text-align: center;
+            display: block;
+          }
+          .keyboard button{
+            background: none;
+            display: inline-flex;
+            outline: none;
+          }
+          .keyboard .clear {
+            font-weight: 100;
+            letter-spacing: -2px;
+            width: 69%;
+          }
+          .keyboard .mid{
+            width: auto;
+            min-width: 142px;
+          }
+      .result, button{
+        color: #39D261;
+        font-weight: bold;
+      }
