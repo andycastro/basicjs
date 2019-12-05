@@ -1,8 +1,9 @@
-function intOrString(param) {
-  const check = typeof param;
-	const result = check === "string" ? 'str' : 'int';
-  console.log(check);
-  return result;
+function arrayOfMultiples(num, length) {
+  let arrNew = [];
+  for ( let i = 1; i <= length; i++ ){
+    const multiplicando = i * num;
+    arrNew.push(multiplicando);
+  }
+  console.log(arrNew);
 }
-
-console.log(intOrString(1));
+arrayOfMultiples(7, 5);
