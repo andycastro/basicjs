@@ -136,3 +136,15 @@ function isPlural(word) {
   return result;
 }
 console.log(isPlural("change"));
+
+//recebe array e multiplica-os
+function produto (arr){
+  let numbers = arr;
+  let total = 1;
+  for( let i = 0; i < numbers.length; i++ ){
+    total = total * numbers[i];
+  }
+  console.log(total);
+
+}
+produto([1, 2, 7]);

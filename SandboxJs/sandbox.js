@@ -1,20 +1,8 @@
-// Usando this para acessar propriedade do obj window
-function lyra(){
-  var larguraWind = this.innerWidth;
-  var alturaWind = this.innerHeight;
-  return [larguraWind, alturaWind];
+function intOrString(param) {
+  const check = typeof param;
+	const result = check === "string" ? 'str' : 'int';
+  console.log(check);
+  return result;
 }
-lyra();
 
-//
-
-var a = 800;
-
-function sacandoThis(){
-    var result = this.a;
-    return result
-}
-sacandoThis();
-
-//
-
+console.log(intOrString(1));
