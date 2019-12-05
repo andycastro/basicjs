@@ -1,9 +1,10 @@
-function arrayOfMultiples(num, length) {
-  let arrNew = [];
-  for ( let i = 1; i <= length; i++ ){
-    const multiplicando = i * num;
-    arrNew.push(multiplicando);
-  }
-  console.log(arrNew);
+// String to integer and vice versa
+function toInt(str) {
+  const result = str.toStr();
+  return console.log(result);
 }
-arrayOfMultiples(7, 5);
+toInt(10);
+
+function toStr(int) {
+	
+}
