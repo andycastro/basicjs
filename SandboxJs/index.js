@@ -171,3 +171,12 @@ function toStr(int) {
   return console.log(result);
 }
 toStr(10);
+
+// take three numbers and return the diference between the max and min
+// learning Math functions JS (max and min)
+function programmers(one, two, three) {
+  const max = Math.max(one, two, three);
+  const min = Math.min(one, two, three);
+  return max - min;
+}
+programmers(1, 5, 9);

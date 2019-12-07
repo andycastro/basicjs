@@ -1,12 +1,6 @@
-// String to integer and vice versa - revisando toString() e parseInt();
-function toInt(str) {
-  const result = parseInt(str);
-  return console.log(result);
+function programmers(one, two, three) {
+  const max = Math.max(one, two, three);
+  const min = Math.min(one, two, three);
+  return console.log(max - min);
 }
-toInt("10");
-
-function toStr(int) {
-  const result = int.toString();
-  return console.log(result);
-}
-toStr(10);
+programmers(1, 5, 9);
